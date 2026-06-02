@@ -1,8 +1,14 @@
-sequenceDiagram
+# Sequence Diagram - Place Creation
 
-%% =====================
-%% PLACE CREATION
-%% =====================
+## Purpose
+This diagram shows how a user creates a new place listing.
+
+---
+
+## Diagram
+
+```mermaid
+sequenceDiagram
 
 actor User
 participant API

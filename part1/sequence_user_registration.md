@@ -1,8 +1,14 @@
-sequenceDiagram
+# Sequence Diagram - User Registration
 
-%% =====================
-%% USER REGISTRATION
-%% =====================
+## Purpose
+This diagram shows how a user registers an account in the HBnB system.
+
+---
+
+## Diagram
+
+```mermaid
+sequenceDiagram
 
 actor User
 participant API

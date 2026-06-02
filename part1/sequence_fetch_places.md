@@ -1,8 +1,14 @@
-sequenceDiagram
+# Sequence Diagram - Fetch Places
 
-%% =====================
-%% FETCH PLACES
-%% =====================
+## Purpose
+This diagram shows how a user retrieves a list of places.
+
+---
+
+## Diagram
+
+```mermaid
+sequenceDiagram
 
 actor User
 participant API
@@ -17,7 +23,7 @@ Facade->>Repository: retrieve_places()
 Repository->>Database: SELECT * FROM places
 
 Database-->>Repository: places data
-Repository-->>Facade: places list
+Repository-->>Facade: list of places
 
 Facade-->>API: response
-API-->>User: JSON list of places
+API-->>User: JSON places list

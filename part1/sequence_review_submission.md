@@ -1,8 +1,14 @@
-sequenceDiagram
+# Sequence Diagram - Review Submission
 
-%% =====================
-%% REVIEW SUBMISSION
-%% =====================
+## Purpose
+This diagram shows how a user submits a review for a place.
+
+---
+
+## Diagram
+
+```mermaid
+sequenceDiagram
 
 actor User
 participant API
